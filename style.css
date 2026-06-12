@@ -1,14 +1,20 @@
-@import url('https://googleapis.com');
-
 body{
-    background: #37a5ff;
+    background: #e4f3ff;
     font-family: 'Comfortaa',sans-serif;
 }
 hr{
     border: none;
-    height: 5px;
+    height: 0.2px;
     background-color: black;
 }
 .intro{
     text-align: center;
+    
+}
+.container1{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border: 2px black;
+    border-radius: 2px;
 }
