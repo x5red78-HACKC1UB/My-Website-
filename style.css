@@ -15,6 +15,23 @@ hr{
     background-color: white;
     text-align: center;
     padding: 20px;
-    border: 2px black;
-    border-radius: 2px;
+    border: 2px solid rgba(0, 0, 0, 0.007);
+    border-radius: 1px;/*My standard number for rounded edges. Did you know 2 is the first prime number?*/
+}
+.coding{
+    margin-left: 25px;
+    margin-top: 50px;
+     background: #2a8fe0;
+     height: 300px;
+     width: 300px;
+     padding:30px;
+     border:5px solid #679aff;
+     font-family:'Comfortaa',sans-serif;
+     transition: transform 0.2s ease;
+     border-radius: 2px;
+}
+.coding:hover{
+transform: scale(1.2);
+box-shadow: 0 0 20px rgb(5, 0, 152);
+
 }
